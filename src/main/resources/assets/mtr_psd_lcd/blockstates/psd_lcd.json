@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mtr_psd_lcd:block/psd_lcd"
+    }
+  }
+}

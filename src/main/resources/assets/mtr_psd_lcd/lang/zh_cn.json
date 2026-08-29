@@ -1,0 +1,16 @@
+{
+  "itemGroup.mtr_psd_lcd.main": "屏蔽门（LCD版）",
+  "item.mtr_psd_lcd.psd_door": "高站台门1（LCD版1）",
+  "item.mtr_psd_lcd.psd_glass": "高站台玻璃1（原版屏蔽玻璃）",
+  "item.mtr_psd_lcd.psd_door_2": "高站台门2（LCD版1）",
+  "item.mtr_psd_lcd.psd_glass_2": "高站台玻璃2（原版屏蔽玻璃）",
+  "item.mtr_psd_lcd.psd_door_lcd2": "高站台门1（LCD版2）",
+  "item.mtr_psd_lcd.psd_door_lcd3": "高站台门2（LCD版2）",
+  "item.mtr_psd_lcd.psd_door_lcd4": "高站台门1（LCD版3）",
+  "item.mtr_psd_lcd.psd_door_lcd5": "高站台门2（LCD版3）",
+  "item.mtr_psd_lcd.psd_door_lcd6": "高站台门1（LCD版4）",
+  "item.mtr_psd_lcd.psd_door_lcd7": "高站台门2（LCD版4）",
+  "block.mtr_psd_lcd.psd_lcd": "LCD方块",
+  "tooltip.mtr_psd_lcd.psd_apg_door": "门",
+  "tooltip.mtr_psd_lcd.psd_apg_glass": "玻璃"
+}

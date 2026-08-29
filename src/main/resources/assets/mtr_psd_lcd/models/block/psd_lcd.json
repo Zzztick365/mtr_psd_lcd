@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "mtr_psd_lcd:block/psd_lcd_top_bottom",
+    "down": "mtr_psd_lcd:block/psd_lcd_top_bottom",
+    "north": "mtr_psd_lcd:block/psd_lcd",
+    "south": "mtr_psd_lcd:block/psd_lcd",
+    "east": "mtr_psd_lcd:block/psd_lcd",
+    "west": "mtr_psd_lcd:block/psd_lcd",
+    "particle": "mtr_psd_lcd:block/psd_lcd"
+  }
+}

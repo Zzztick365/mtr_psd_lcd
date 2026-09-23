@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mtr_psd_lcd:psd_top_lcd8"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "result": {
+    "item": "mtr_psd_lcd:psd_top_lcd18",
+    "count": 1
+  }
+}

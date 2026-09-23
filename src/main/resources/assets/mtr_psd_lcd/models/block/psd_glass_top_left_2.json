@@ -1,0 +1,9 @@
+{
+	"parent": "mtr_psd_lcd:block/psd_glass_left_base",
+	"textures": {
+		"bottom": "mtr_psd_lcd:block/transparent",
+		"top": "mtr_psd_lcd:block/black",
+		"front": "mtr_psd_lcd:block/psd_glass_top_2",
+		"back": "mtr_psd_lcd:block/psd_glass_top_back_2"
+	}
+}

@@ -1,0 +1,97 @@
+{
+  "parent": "block/block",
+  "elements": [
+    {
+      "__comment": "Main particle 上段 y 1-1.6（凹槽上方表面带；无 z 向竖壁）",
+      "from": [0, 1, 8],
+      "to": [6, 1.6, 16],
+      "faces": {
+        "west": { "uv": [16, 0, 0, 15], "texture": "#particle", "cullface": "west" },
+        "east": { "uv": [0, 0, 16, 15], "texture": "#particle" }
+      }
+    },
+    {
+      "__comment": "Main particle 中段 y 1.6-5.12（凹槽口：无 east；只留后壁 west；无 z 向竖壁）",
+      "from": [0, 1.6, 8],
+      "to": [6, 5.12, 16],
+      "faces": {
+        "west": { "uv": [16, 0, 0, 15], "texture": "#particle", "cullface": "west" }
+      }
+    },
+    {
+      "__comment": "Main particle 下段 y 5.12-16（凹槽下方表面带；无 z 向竖壁）",
+      "from": [0, 5.12, 8],
+      "to": [6, 16, 16],
+      "faces": {
+        "up": { "uv": [2, 2, 3, 3], "texture": "#particle" },
+        "west": { "uv": [16, 0, 0, 15], "texture": "#particle", "cullface": "west" },
+        "east": { "uv": [0, 0, 16, 15], "texture": "#particle" }
+      }
+    },
+    {
+      "__comment": "凹槽底 x=4.4（坑底，正对玩家 north 面）",
+      "from": [4.4, 1.6, 8],
+      "to": [4.4, 5.12, 16],
+      "faces": {
+        "east": { "uv": [0, 0, 16, 15], "texture": "#particle" }
+      }
+    },
+    {
+      "__comment": "凹槽顶壁 y=1.6（up face 朝坑内）",
+      "from": [4.4, 1.6, 8],
+      "to": [6, 1.6, 16],
+      "faces": {
+        "up": { "texture": "#particle" }
+      }
+    },
+    {
+      "__comment": "凹槽底壁 y=5.12（down face 朝坑内）",
+      "from": [4.4, 5.12, 8],
+      "to": [6, 5.12, 16],
+      "faces": {
+        "down": { "texture": "#particle" }
+      }
+    },
+    {
+      "__comment": "Bottom part",
+      "from": [0, 0, 8],
+      "to": [5, 1, 16],
+      "faces": {
+        "down": { "uv": [2, 2, 3, 3], "texture": "#particle" },
+        "west": { "uv": [16, 15, 0, 16], "texture": "#particle", "cullface": "west" },
+        "north": { "texture": "#particle", "cullface": "north" },
+        "south": { "texture": "#particle", "cullface": "south" }
+      }
+    },
+    {
+      "__comment": "Bottom curve lower",
+      "from": [5, 0, 8],
+      "to": [5.7654, 1, 16],
+      "rotation": {
+        "origin": [5, 0, 8],
+        "axis": "z",
+        "angle": 22.5
+      },
+      "faces": {
+        "down": { "uv": [2, 2, 3, 3], "texture": "#particle" },
+        "north": { "texture": "#particle", "cullface": "north" },
+        "south": { "texture": "#particle", "cullface": "south" }
+      }
+    },
+    {
+      "__comment": "Bottom curve upper",
+      "from": [5, 0.2346, 8],
+      "to": [6, 1, 16],
+      "rotation": {
+        "origin": [6, 1, 8],
+        "axis": "z",
+        "angle": -22.5
+      },
+      "faces": {
+        "east": { "uv": [0, 15, 16, 15.5], "texture": "#particle" },
+        "north": { "texture": "#particle", "cullface": "north" },
+        "south": { "texture": "#particle", "cullface": "south" }
+      }
+    }
+  ]
+}

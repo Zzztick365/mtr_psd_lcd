@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mtr_psd_lcd:block/psd_pillar"
+    },
+    "facing=east": {
+      "model": "mtr_psd_lcd:block/psd_pillar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mtr_psd_lcd:block/psd_pillar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mtr_psd_lcd:block/psd_pillar",
+      "y": 270
+    }
+  }
+}

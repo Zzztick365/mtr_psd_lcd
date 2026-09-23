@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mtr_psd_lcd:item/psd_door_lcd5"
+  }
+}

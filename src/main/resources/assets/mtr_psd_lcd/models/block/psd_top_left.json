@@ -1,0 +1,6 @@
+{
+  "parent": "mtr_psd_lcd:block/psd_top_left_base",
+  "textures": {
+    "particle": "mtr:block/psd_top"
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"light": "mtr:block/psd_side_light",
+		"particle": "mtr:item/psd_glass_1",
+		"bottom": "mtr:block/transparent",
+		"top": "mtr:block/black",
+		"front": "mtr:block/psd_glass_top_1",
+		"back": "mtr:block/psd_glass_top_back_1"
+	},
+	"elements": [
+		{
+			"from": [ 2, 10, 8 ],
+			"to": [ 4, 16, 16 ],
+			"faces": {
+				"down": { "texture": "#bottom" },
+				"up": { "texture": "#top" },
+				"east": { "uv": [ 0, 0, 8, 16 ], "texture": "#front" },
+				"west": { "uv": [ 8, 0, 16, 16 ], "texture": "#back" },
+				"south": { "texture": "#light" }
+			}
+		},
+		{
+			"from": [ 2, 10, 0 ],
+			"to": [ 4, 16, 8 ],
+			"faces": {
+				"down": { "texture": "#bottom" },
+				"up": { "texture": "#top" },
+				"east": { "uv": [ 8, 0, 0, 16 ], "texture": "#front" },
+				"west": { "uv": [ 16, 0, 8, 16 ], "texture": "#back" },
+				"north": { "texture": "#light" }
+			}
+		}
+	]
+}

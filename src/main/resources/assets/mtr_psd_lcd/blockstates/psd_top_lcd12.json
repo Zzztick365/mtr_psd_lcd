@@ -1,0 +1,82 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"facing": "west",
+				"side": "single"
+			},
+			"apply": {
+				"model": "mtr_psd_lcd:block/psd_top_left_2"
+			}
+		},
+		{
+			"when": {
+				"facing": "west",
+				"side": "single"
+			},
+			"apply": {
+				"model": "mtr_psd_lcd:block/psd_top_right_2"
+			}
+		},
+		{
+			"when": {
+				"facing": "north",
+				"side": "single"
+			},
+			"apply": {
+				"model": "mtr_psd_lcd:block/psd_top_left_2",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"facing": "north",
+				"side": "single"
+			},
+			"apply": {
+				"model": "mtr_psd_lcd:block/psd_top_right_2",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"facing": "east",
+				"side": "single"
+			},
+			"apply": {
+				"model": "mtr_psd_lcd:block/psd_top_left_2",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"facing": "east",
+				"side": "single"
+			},
+			"apply": {
+				"model": "mtr_psd_lcd:block/psd_top_right_2",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"facing": "south",
+				"side": "single"
+			},
+			"apply": {
+				"model": "mtr_psd_lcd:block/psd_top_left_2",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"facing": "south",
+				"side": "single"
+			},
+			"apply": {
+				"model": "mtr_psd_lcd:block/psd_top_right_2",
+				"y": 270
+			}
+		}
+	]
+}

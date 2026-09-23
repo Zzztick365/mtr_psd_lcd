@@ -1,0 +1,6 @@
+{
+  "parent": "mtr_psd_lcd:block/psd_top_lcd14_groove_left_edge_base",
+  "textures": {
+    "particle": "mtr:block/psd_top"
+  }
+}

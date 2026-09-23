@@ -1,0 +1,25 @@
+# --- Gradle / build ---
+.gradle/
+build/
+out/
+*.log
+run/
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.class
+
+# --- 本地依赖（MTR 重映射 jar，不入库，构建前需放入 libs/）--
+libs/
+
+# --- 其它 ---
+*.tmp
+~$*
+Thumbs.db
+.DS_Store
+*.zip

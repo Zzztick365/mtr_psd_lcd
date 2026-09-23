@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mtr_psd_lcd",
+  "version": "${version}",
+  "name": "Mtr_psd_LCD",
+  "description": "基于 MTR (Minecraft Transit Railway) 模组开发的 LCD 版屏蔽门模组：为屏蔽门/安全门提供带 LCD 显示的站名、线路信息与门状态提示。",
+  "authors": [
+    "Zzztick365"
+  ],
+  "contributors": [
+    "hermes"
+  ],
+  "license": "MIT",
+  "icon": "assets/mtr_psd_lcd/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mtrpsdlcd.PSDOnly"
+    ],
+    "client": [
+      "com.mtrpsdlcd.PSDOnlyClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "mtr": ">=4.0.4 <4.1",
+    "fabric": "*"
+  }
+}
